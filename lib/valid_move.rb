@@ -4,6 +4,11 @@ def valid_move?(board,index)
   else
     valid=false
   end
+  if index.between (0,8)
+    valid=true
+  else
+    valid=false
+  end
 end
 
 
